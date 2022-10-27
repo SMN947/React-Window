@@ -14,10 +14,20 @@ class App extends Component {
         <div>
           <button>Abrir un caso por numero</button>
         </div>
-        <WindowModal title="Reporte uno" pos={startPos} size={size}>
+        <WindowModal
+          resizable="true"
+          title="Reporte uno"
+          pos={startPos}
+          size={size}
+        >
           El PBI por aca
         </WindowModal>
-        <WindowModal title="Reporte dos" pos={startPos} size={size}>
+        <WindowModal
+          resizable="true"
+          title="Reporte dos"
+          pos={startPos}
+          size={size}
+        >
           El PBI por aca
         </WindowModal>
       </div>
